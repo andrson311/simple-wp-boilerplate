@@ -15,8 +15,7 @@ export default defineConfig({
         manifest: true,
         rollupOptions: {
             input: {
-                main: resolve(__dirname, '/main.js'),
-                styles: resolve(__dirname, '/assets/scss/styles.scss')
+                main: resolve(__dirname, '/main.js')
             }
         },
         minify: true,

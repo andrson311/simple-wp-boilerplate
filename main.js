@@ -1,6 +1,5 @@
 // get styles
-//import "./assets/scss/styles.scss"
-import "./assets/css/utilities.css"
+import "./assets/css/styles.css"
 
 // get scripts
 import './assets/js/scripts.js'
