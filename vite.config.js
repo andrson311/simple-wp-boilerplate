@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite';
 import { resolve } from 'path'
 
 export default defineConfig({
@@ -14,7 +15,8 @@ export default defineConfig({
         manifest: true,
         rollupOptions: {
             input: {
-                main: resolve(__dirname, '/main.js')
+                main: resolve(__dirname, '/main.js'),
+                styles: resolve(__dirname, '/assets/scss/styles.scss')
             }
         },
         minify: true,
@@ -27,6 +29,7 @@ export default defineConfig({
     },
 
     plugins: [
+        tailwindcss(),
         {
             name: 'php',
             handleHotUpdate({file, server}) {

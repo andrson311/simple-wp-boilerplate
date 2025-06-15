@@ -10,11 +10,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@picocss/pico": "^2.1.1",
+    "@tailwindcss/vite": "^4.1.10",
     "sass": "^1.89.2",
     "sass-embedded": "^1.89.2",
+    "tailwindcss": "^4.1.10",
     "vite": "^6.3.5"
   }
 }
