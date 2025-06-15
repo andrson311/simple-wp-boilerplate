@@ -1,0 +1,20 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@picocss/pico": "^2.1.1",
+    "sass": "^1.89.2",
+    "sass-embedded": "^1.89.2",
+    "vite": "^6.3.5"
+  }
+}
