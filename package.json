@@ -13,7 +13,8 @@
   "type": "module",
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "alpinejs": "^3.14.9",
     "tailwindcss": "^4.1.11",
-    "vite": "^7.0.4"
+    "vite": "^7.0.6"
   }
 }
