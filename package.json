@@ -12,9 +12,10 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "alpinejs": "^3.15.3",
-    "tailwindcss": "^4.1.18",
-    "vite": "^7.3.0"
+    "@tailwindcss/vite": "^4.3.3",
+    "alpinejs": "^3.17.4",
+    "cross-env": "^10.1.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
   }
 }

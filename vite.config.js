@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite';
+import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
         manifest: true,
         rollupOptions: {
             input: {
-                main: resolve(__dirname, '/main.js')
+                main: resolve(import.meta.dirname, 'main.js')
             }
         },
         minify: true,
@@ -31,9 +31,9 @@ export default defineConfig({
         tailwindcss(),
         {
             name: 'php',
-            handleHotUpdate({file, server}) {
+            handleHotUpdate({ file, server }) {
                 if (file.endsWith('.php')) {
-                    server.ws.send({ type: 'full-reload' });
+                    server.ws.send({ type: 'full-reload' })
                 }
             }
         }
